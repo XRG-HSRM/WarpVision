@@ -14,7 +14,6 @@
 - Start "StartupScene" to begin study
 	- in the controller of the StartupScene, various settings can be adjusted, such as the used scenes, gaze guidance techniques, and maximum duration of a search
 - The user (study participant) will need to click the trigger of a VR hand controller to notify the framework of him finding an object
-- the VR hand controller trigger will also be used to start the framework
 - data will be collected in the Assets/Data folder, this can be adjusted to a persistent datapath
 
 
