@@ -35,3 +35,6 @@ To use WarpVision in any Unity application, the following files are required/nee
 	- the material that uses the WarpVision shader
 - WarpVisionShader
 	- the shader to curve the space
+
+
+This repository is provided as-is and is not actively maintained. It is shared for the sake of research transparency and to support open science.
