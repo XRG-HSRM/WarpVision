@@ -1,14 +1,14 @@
-Requirements:
+## Requirements:
 - Unity version 2022.3.47f1 (should work on other versions as well)
 - Python version 3.10.6 (for data collection in the study, not required otherwise)
 - SRanipal (for eye tracking, can be replaced with more recent Open-XR variant -> adjust EyeTrackingRaycast.cs / gazeRay)
 - SteamVR
 - Tested using the Vive Pro Eye HMD
 
-Install:
+## Install:
 - Simply clone the repository for use in a Unity project
 
-Study Setup:
+## Study Setup:
 - To setup the framework for a study, the python script "data_input" has to be started to allow the collection of data through the researcher
 - SRanipal has to run
 - Start "StartupScene" to begin study
@@ -18,7 +18,7 @@ Study Setup:
 - data will be collected in the Assets/Data folder, this can be adjusted to a persistent datapath
 
 
-To use WarpVision in any Unity application, the following files are required/need to be adjusted:
+## To use WarpVision in any Unity application, the following files are required/need to be adjusted:
 - VRCamera.cs
 	- a simple script that allows WarpVision to delegate a custom render function
 	- should be a component of the VR camera inside the VR rig
@@ -35,5 +35,9 @@ To use WarpVision in any Unity application, the following files are required/nee
 	- the material that uses the WarpVision shader
 - WarpVisionShader
 	- the shader to curve the space
+
+## Attribution
+The realistic scene is based on material from Amazon Lumberyard (https://developer.nvidia.com/orca/amazon-lumberyard-bistro), used under the [CC BY License](https://creativecommons.org/licenses/by/4.0/).
+Modifications were made to the original files.
 
 This repository is provided as-is and is not actively maintained. It is shared for the sake of research transparency and to support open science.
