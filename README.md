@@ -37,7 +37,7 @@
 	- the shader to curve the space
 
 ## Attribution
-The realistic scene is based on material from Amazon Lumberyard, used under the [CC BY License](https://creativecommons.org/licenses/by/4.0/).
+The realistic scene is based on material from Amazon Lumberyard (https://developer.nvidia.com/orca/amazon-lumberyard-bistro), used under the [CC BY License](https://creativecommons.org/licenses/by/4.0/).
 Modifications were made to the original files.
 
 This repository is provided as-is and is not actively maintained. It is shared for the sake of research transparency and to support open science.
